@@ -1,0 +1,124 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E0E8FF;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.back1 {
+    width: 100%;
+    position: absolute;
+    height: 50vh;
+    z-index: -1;
+}
+
+#main-box {
+    width: 450px;
+    height: 775px;
+    background-color: white;
+    position: relative;
+    border-radius: 25px;
+}
+
+.center-box {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-image {
+    border-radius: 25px 25px 0 0;
+}
+
+.tittle {
+    text-align: center;
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+    font-size: 28px;
+    margin-top: 50px;
+}
+
+.content {
+    color: hsl(224, 23%, 55%);
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+#plans-box {
+    width: 80%;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 15px;
+    height: 100px;
+    margin: 25px auto 35px;
+    position: relative;
+}
+
+.music-icon {
+    margin: 26px 25px;
+    float: left;
+}
+
+.plan-esfecified {
+    font-weight: 900;
+    position: relative;
+    top: 26px;
+    color: hsl(223, 47%, 23%);
+}
+
+.price-plan {
+    position: relative;
+    top: 36px;
+    color: hsl(224, 23%, 55%);
+}
+
+.change-plan {
+    position: absolute;
+    right: 25px;
+    color: hsl(245, 75%, 52%);
+    font-weight: 700;
+}
+
+.change-plan:active {
+    text-decoration: none;
+    color: #766CF1;
+}
+
+#pay-button {
+    width: 80%;
+    background-color: hsl(245, 75%, 52%);
+    border-radius: 15px;
+    height: 55px;
+    border: none;
+    display: block;
+    margin: 0 auto;
+    color: white;
+    font-weight: 700;
+    box-shadow: 0px 16px 26px 0px rgba(56,41,224,0.3);
+    cursor: pointer;
+}
+
+#pay-button:active {
+    background-color: #766CF1;
+    box-shadow: 0px 16px 26px 0px rgba(118, 108, 241,0.3);
+}
+
+.cancel-order {
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+    font-weight: 900;
+    display: block;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.cancel-order:active {
+    color: hsl(223, 47%, 23%);
+}
